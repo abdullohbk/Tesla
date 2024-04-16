@@ -1,0 +1,37 @@
+div {
+  ul {
+    display: flex;
+    gap: 102px;
+    li {
+      .footertext {
+        color: #fff;
+        text-align: center;
+        font-family: "SF UI  Text";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      .footertext2 {
+        color: #fff;
+        text-align: center;
+        font-family: "SF UI  Text";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+
+  .footerButton{
+    background: blue;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+}
+
+.footer{
+  margin-top: 120px;
+}

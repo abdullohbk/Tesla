@@ -1,0 +1,61 @@
+.active {
+  color: yellow !important;
+  text-decoration: underline;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 50px;
+
+  .searchButton {
+    color: white;
+    display: flex;
+    gap: 15px;
+    background: rgb(53, 53, 53);
+    padding: 4px 20px;  
+    border-radius: 20px;
+  }
+
+  .btnHead {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: rgb(53, 53, 53);
+  }
+}
+
+.activeHome{
+    border-radius: 85px;
+    border: 2px solid var(--1, #0081FF);
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: #0081FF !important;
+}
+
+.activeModel3{
+    border-radius: 85px;
+    border: 2px solid var(--2, #F10221);
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: #F10221 !important;
+}
+
+.activeModelx{
+    border-radius: 85px;
+    border: 2px solid #FFF;
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: white !important;
+}
+
+.activeModely{
+    border-radius: 85px;
+    border: 2px solid #707070;
+    background: rgba(244, 251, 255, 0.10);
+    backdrop-filter: blur(250px);
+    color: white !important;
+}
+
+header{
+  margin-bottom: 80px;
+}
